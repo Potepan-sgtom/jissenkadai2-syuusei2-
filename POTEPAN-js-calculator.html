@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+      <meta charset="UTF-8">
+      <script src="POTEPAN-js-calculator.js"></script>
+      <link rel="stylesheet" href="POTEPAN-js-calculator.css">
+      <title>ポテパン課題電卓</title>
+    </head>
+    
+    <body>
+      <div id="calc">
+      <h1>電卓</h1>
+      <!--液晶部分と基本０表示-->
+        <div>
+          <input readonly id="result" type="text" value="0">
+        </div>
+        <!--ボタン部分-->
+        <div>
+          <button onclick="ac_click()">AC</button>    
+        </div>    
+        <div>
+          <button onclick="num_click(this.innerHTML)">7</button>
+          <button onclick="num_click(this.innerHTML)">8</button>
+          <button onclick="num_click(this.innerHTML)">9</button>
+          <button onclick="ope_click(this.innerHTML)">÷</button>
+        </div>
+        <div>
+          <button onclick="num_click(this.innerHTML)">4</button>
+          <button onclick="num_click(this.innerHTML)">5</button>
+          <button onclick="num_click(this.innerHTML)">6</button>
+          <button onclick="ope_click(this.innerHTML)">×</button>
+        </div>
+        <div>
+          <button onclick="num_click(this.innerHTML)">1</button>
+          <button onclick="num_click(this.innerHTML)">2</button>
+          <button onclick="num_click(this.innerHTML)">3</button>
+          <button onclick="ope_click(this.innerHTML)">-</button>
+        </div>
+        <div>
+          <button onclick="num_click(this.innerHTML)">0</button>
+          <button onclick="num_click(this.innerHTML)">.</button>
+          <button onclick="equal_click()">=</button>
+          <button onclick="ope_click(this.innerHTML)">+</button>    
+        </div>
+      </div>
+      
+        
+        
+    </body>   
+  </html>

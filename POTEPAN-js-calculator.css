@@ -1,0 +1,41 @@
+/*主題レイアウト*/
+.h1 {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #6E6636;
+    text-align: center;
+}
+
+/*全体レイアウト*/
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+/*テキストレイアウト*/
+input {
+    box-sizing: border-box;
+    width: 81.5%;
+    height: 35px;
+    font-size: 16px;
+    text-align: right;
+    padding: 0 7.5px;
+}
+
+/*ボタンデザイン*/
+button{
+    font-size: 18px;
+    width: 20%;
+    height: 60px;
+    color: #333;
+    vertical-align: middle;
+    border-color: #fff;
+}
+button:hover {
+    background-color: #ddd;
+}
+
+
+
